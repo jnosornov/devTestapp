@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#intro svg { width: 20px; height: 20px; fill: #ffffff; }
+
+#intro { position: relative; display: flex; justify-content: center; align-items: center; }
+
+.intro-background-image img {
+    display: block;
+    width: 100%;
+    filter: brightness(35%);
+}
+
+.intro-menu {
+    width: 90px;
+    position: absolute;
+    top: 20px; right: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+.wrapper {
+    width: 90px; height: 90px;
+    position: absolute;
+    bottom: -45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+}
+
+.collapse-wrapper {
+    width: 60px; height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #27605b;
+    border-radius: 50%;
+    border: 2.2px solid #5cc9c1;
+}
+
+#intro-content {
+    margin-top: 40px;
+    width: 700px; height: 440px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .intro-line {
+    width: 410px; height: 4px;
+    background-color: #ffffff;
+}
+
+.header .title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.header .subtitle {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: 34px;
+    color: rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+}
+
+#intro-content .text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.intro-button {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 14px 65px;
+    color: #ffffff;
+    background-color: transparent;
+    border: 3px solid #ffffff;
+}
+
+.intro-button:hover {
+    background-color: rgba(255,255,255,0.1);
+}
+
+.carousel-arrows {
+    width: 120px;
+    position: absolute;
+    bottom: 3px;
+    display: flex;
+    justify-content: space-between;
+}
