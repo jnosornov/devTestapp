@@ -5,19 +5,30 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Single Page App</title>
+
+        <!--CSS styles-->
+        <link href="devapp.css" rel="stylesheet">
+        
+        <!--Google Fonts-->
+        <!--Monserrat-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+        <!--Open Sans-->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet" type="text/css">
+        <!--Raleway-->
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,600,700,800,900" rel="stylesheet" type="text/css">
     </head>
 
     <body>
         <section id="intro">
-            <figure>
+            <figure class="intro-background-image">
                 <img src="../static/images/section_intro/background-intro.jpg" alt="section background image">
             </figure>
             <div class="intro-menu">
                 <span>menu</span>
                 <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1664 1344v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45zm0-512v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45zm0-512v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45z"/></svg><!--menu-->
             </div>
-            <div class="opacity-wrapper">
-                <div class="collapse-arrow-wrapper">
+            <div class="wrapper">
+                <div class="collapse-wrapper">
                     <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1277 1299q8 19-5 35l-350 384q-10 10-23 10-14 0-24-10l-355-384q-13-16-5-35 9-19 29-19h224v-1248q0-14 9-23t23-9h192q14 0 23 9t9 23v1248h224q21 0 29 19z"/></svg><!--collapse arrow-->
                     <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1600 736v192q0 40-28 68t-68 28h-1216q-40 0-68-28t-28-68v-192q0-40 28-68t68-28h1216q40 0 68 28t28 68z"/></svg><!--minus-->
                 </div>
@@ -25,17 +36,19 @@
             <section id="intro-content">
                 <div class="header">
                     <div class="intro-line"></div>
-                    <span>one page</span>
-                    <span>multi-porpuse theme</span>
+                    <span class="title">one page</span>
+                    <span class="subtitle">multi-porpuse theme</span>
                     <div class="intro-line"></div>
                 </div>
-                <span>Premium one-page multi-purpose theme perfect for everyone - start using Moxie today!</span>
-                <button>get started</button>
+                <span class="text">Premium one-page multi-purpose theme perfect for everyone - start using Moxie today!</span>
+                <button class="intro-button">get started</button>
                 <div class="carousel-arrows">
                     <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1427 301l-531 531 531 531q19 19 19 45t-19 45l-166 166q-19 19-45 19t-45-19l-742-742q-19-19-19-45t19-45l742-742q19-19 45-19t45 19l166 166q19 19 19 45t-19 45z"/></svg><!--left arrow-->
                     <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1363 877l-742 742q-19 19-45 19t-45-19l-166-166q-19-19-19-45t19-45l531-531-531-531q-19-19-19-45t19-45l166-166q19-19 45-19t45 19l742 742q19 19 19 45t-19 45z"/></svg><!--right arrow-->
                 </div>
                 <div class="carousel-views">
+                    <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1664 896q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z"/></svg><!--carousel-view-->
+                    <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1664 896q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z"/></svg><!--carousel-view-->
                     <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1664 896q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z"/></svg><!--carousel-view-->
                 </div>
             </section>
