@@ -234,3 +234,12 @@
     opacity: 1;
     transition: 0.5s;
 }
+
+.nav-item .nav-link.active::before {
+    position: absolute;
+    top: 100%;
+    content: "";
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #164d61;
+}
